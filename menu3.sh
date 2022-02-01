@@ -7,7 +7,7 @@
 source /etc/functions.sh
 cd $HOME/multipool/daemon_builder
 
-RESULT=$(dialog --stdout --title "Ultimate Crypto-Server Daemon Installer" --menu "Choose one" -1 60 4 \
+RESULT=$(dialog --stdout --title "Afiniel Crypto-Server Daemon Installer" --menu "Choose one" -1 60 4 \
 1 "Update Berkeley 4.x Coin with autogen file" \
 2 "Update Berkeley 5.x Coin with autogen file" \
 3 "Update Coin with makefile.unix file" \
